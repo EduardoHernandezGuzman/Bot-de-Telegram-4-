@@ -2,7 +2,7 @@ import telebot
 import random
 
 # Conexión con nuestro BOT
-TU_TOKEN_AQUÍ = "6555420059:AAFQg0eWhHq0CbJ8NYSj1WQE9_CQpkzneao"
+TU_TOKEN_AQUÍ = ""
 bot = telebot.TeleBot(TU_TOKEN_AQUÍ)
 
 # Diccionario de nombres con sus respectivas URLs de imágenes
