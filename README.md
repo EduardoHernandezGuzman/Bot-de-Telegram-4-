@@ -6,7 +6,7 @@ Este proyecto consiste en un bot básico para Telegram desarrollado en Python ut
 
 Este bot para Telegram tiene una función principal que consiste en generar excusas convincentes de manera aleatoria. Cada excusa creada incluye elementos como quién causó el problema, qué acción realizó, qué objeto se vio afectado y cuándo ocurrió. Además, el bot complementa estas excusas enviando una imagen relacionada con el personaje ficticio mencionado en la excusa. Por ejemplo, si la excusa menciona a "Pennywise", el bot enviará automáticamente una imagen de Pennywise junto con la excusa generada.
 
-Este bot es la versión mejorada de [este](https://github.com/EduardoHernandezGuzman/Bot-de-Telegram-4-) otro bot.
+Este bot es la versión mejorada de [este](https://github.com/EduardoHernandezGuzman/Bot-de-Telegram-3-) otro bot.
 
 
 ## Configuración
@@ -16,7 +16,7 @@ Sigue estos pasos para configurar y ejecutar el bot en tu entorno local:
 1. **Clonar el Repositorio**: Utiliza Git para clonar este repositorio en tu máquina local utilizando el siguiente comando:
 
     ```bash
-    git clone https://github.com/tu_usuario/Bot-de-Telegram-3.git
+    git clone https://github.com/tu_usuario/Bot-de-Telegram-4-.git
     ```
 
 2. **Instalar Dependencias**: Navega al directorio del proyecto y utiliza pip para instalar las dependencias necesarias:
