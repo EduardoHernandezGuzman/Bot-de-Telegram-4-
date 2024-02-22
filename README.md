@@ -16,13 +16,13 @@ Sigue estos pasos para configurar y ejecutar el bot en tu entorno local:
 1. **Clonar el Repositorio**: Utiliza Git para clonar este repositorio en tu máquina local utilizando el siguiente comando:
 
     ```bash
-    git clone https://github.com/tu_usuario/Bot-de-Telegram-4-.git
+    git clone https://github.com/tu_usuario/Bot-de-Telegram-4.git
     ```
 
 2. **Instalar Dependencias**: Navega al directorio del proyecto y utiliza pip para instalar las dependencias necesarias:
 
     ```bash
-    cd Bot-de-Telegram-3
+    cd Bot-de-Telegram-4
     pip install -r requirements.txt
     ```
 
