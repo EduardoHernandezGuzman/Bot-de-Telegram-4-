@@ -48,6 +48,11 @@ El bot actualmente cuenta con las siguientes funcionalidades:
 
 - **Comando `/excusa`**: Genera una excusa convincente utilizando elementos aleatorios de quien, acción, qué y cuándo. Además te envía una imagen con la excusa.
 
+## El bot en funcionamiento
+
+![bot04](https://github.com/EduardoHernandezGuzman/Bot-de-Telegram-4-/assets/139759297/263313fc-2903-4b71-9575-84bac92e5999)
+
+
 ## Personalización
 
 Si deseas agregar nuevas funcionalidades o personalizar el comportamiento del bot, puedes modificar el archivo `main.py` según tus necesidades. La documentación de TeleBot puede ser útil para comprender cómo extender la funcionalidad del bot.
