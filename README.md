@@ -16,21 +16,34 @@ Sigue estos pasos para configurar y ejecutar el bot en tu entorno local:
 1. **Clonar el Repositorio**: Utiliza Git para clonar este repositorio en tu máquina local utilizando el siguiente comando:
 
     ```bash
-    git clone https://github.com/tu_usuario/Bot-de-Telegram-4.git
+    git clone https://github.com/tu_usuario/Bot-de-Telegram-1.git
     ```
 
 2. **Instalar Dependencias**: Navega al directorio del proyecto y utiliza pip para instalar las dependencias necesarias:
 
     ```bash
-    cd Bot-de-Telegram-4
+    cd Bot-de-Telegram-1
     pip install -r requirements.txt
     ```
 
 3. **Obtener Token de Bot**: Crea un nuevo bot en Telegram utilizando el BotFather y obtén el token del bot recién creado.
 
-4. **Configurar el Token**: Abre el archivo `main.py` en un editor de texto y reemplaza `"TU_TOKEN_AQUÍ"` con el token obtenido en el paso anterior.
+4. **Configurar el Token**:
+    - Crea un archivo `.env` en el directorio raíz del proyecto.
+    - Abre el archivo `.env` en un editor de texto y agrega la siguiente línea, reemplazando `"TU_TOKEN_AQUÍ"` con el token obtenido en el paso anterior:
 
-5. **Ejecutar el Bot**: Ejecuta el script `main.py` utilizando Python para iniciar el bot:
+    ```plaintext
+    TELEGRAM_TOKEN=TU_TOKEN_AQUÍ
+    ```
+
+5. **Asegurarse de que `.env` esté en `.gitignore`**:
+    - Asegúrate de que el archivo `.env` esté incluido en `.gitignore` para que no se suba al repositorio. El contenido de `.gitignore` debería incluir `.env`:
+
+    ```plaintext
+    .env
+    ```
+
+6. **Ejecutar el Bot**: Ejecuta el script `main.py` utilizando Python para iniciar el bot:
 
     ```bash
     python main.py
@@ -42,15 +55,13 @@ El bot actualmente cuenta con las siguientes funcionalidades:
 
 - **Comando `/start`**: Inicia el bot y muestra un mensaje de bienvenida al usuario.
 
-- **Comando `/help`**: Proporciona información sobre cómo utilizar el bot y las funcionalidades disponibles.
-
 - **Comando `/about`**: Muestra información sobre el bot, incluyendo detalles sobre su propósito y quién lo creó.
 
 - **Comando `/excusa`**: Genera una excusa convincente utilizando elementos aleatorios de quien, acción, qué y cuándo. Además te envía una imagen con la excusa.
 
 ## El bot en funcionamiento
 
-![bot04](https://github.com/EduardoHernandezGuzman/Bot-de-Telegram-4-/assets/139759297/263313fc-2903-4b71-9575-84bac92e5999)
+![bot04](https://github.com/EduardoHernandezGuzman/Bot-de-Telegram-3-/assets/139759297/8bd1a2c2-5acf-4a95-93cc-2be1be16b269)
 
 
 ## Personalización
