@@ -107,25 +107,17 @@ when = [
 @bot.message_handler(commands=['start'])
 def send_start(message):
     start_text = """
-    ¡Hola! Bienvenido a mi primer proyecto de bot de Telegram.
+    ¡Hola! Bienvenido a uno de mis primeros proyectos de bot de Telegram.
     
     Puedes usar los siguientes comandos conmigo:
     
     /start - Inicia una conversación conmigo
-    /help - Obtiene ayuda sobre cómo usar el bot
     /about - Muestra información sobre este bot
     /excusa - Elabora una excusa convincente
     
     ¡Espero que disfrutes usando este bot!
     """
     bot.reply_to(message, start_text)
-
-
-#Comando /help
-@bot.message_handler(commands=['help']) 
-def send_help(message):
-    bot.reply_to(message, "¡Claro! Estoy aquí para ayudarte. Si tienes alguna pregunta o necesitas asistencia, no dudes en decírmelo. Estoy aquí para hacer que tu experiencia con este bot sea lo más fácil y agradable posible.")
-
 
 #Comando /about
 @bot.message_handler(commands=['about'])
